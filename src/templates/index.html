@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./favicon.png">
+
+    <meta name="description" content="Free movie catalogue for you">
+    <link rel="manifest" href="./app.webmanifest">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <title>Restaurant Catalogue</title>
+</head>
+<body>
+    <a href="#mainContent" class="skip-link">Menuju ke konten</a>
+    <header class="app-bar">
+      <div class="app-bar__menu">
+        <button id="hamburgerButton"><i class="fas fa-bars"></i></button>
+      </div>
+      <div class="app-bar__brand">
+        <h1>Restaurants</h1>
+      </div>
+      <nav id="navigationDrawer" class="app-bar__navigation">
+        <ul>
+          <li><a href="#/home">Home</a></li>
+          <li><a href="#/like">Favorite</a></li>
+          <li><a href="https://github.com/desihamita">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hero-element></hero-element>
+
+    <main id="mainContent" tabindex="0"></main>
+      
+    <footer>
+      <div id="footerTools">
+          <button id="subscribePushNotification" class="btn">Subscribe Push Notification</button>
+          <button id="unsubscribePushNotification" class="btn">Unsubscribe Push Notification</button>
+        </div>
+      <p>Copyright @ 2022 - github : <a href="https://github.com/desihamita" target="_blank" rel="noreferrer">desihamita</a></p>
+    </footer>
+</body>
+</html>
